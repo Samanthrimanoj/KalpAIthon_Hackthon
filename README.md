@@ -42,19 +42,18 @@ PixelProof uses a **Frame-wise CNN Classification Pipeline** to detect deepfake 
 ### ⚙️ Workflow
 
 User Uploads Video
-↓
+        ↓
 Frame Extraction (OpenCV)
-↓
+        ↓
 Frame Preprocessing
-↓
-Pretrained Deepfake Model
-↓
+        ↓
+Pretrained Model
+        ↓
 Frame-wise Prediction
-↓
+        ↓
 Majority Voting
-↓
+        ↓
 Final Output (REAL / FAKE)
-
 
 ### 🧠 Approach:
 - Extract frames at fixed intervals
